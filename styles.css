@@ -2684,6 +2684,11 @@ details.collapse summary::-webkit-details-marker {
   height: 24rem;
 }
 
+.size-\[350px\] {
+  width: 350px;
+  height: 350px;
+}
+
 .size-\[400px\] {
   width: 400px;
   height: 400px;
@@ -2709,11 +2714,6 @@ details.collapse summary::-webkit-details-marker {
   height: 100%;
 }
 
-.size-\[350px\] {
-  width: 350px;
-  height: 350px;
-}
-
 .h-20 {
   height: 5rem;
 }
@@ -2722,8 +2722,8 @@ details.collapse summary::-webkit-details-marker {
   height: 0.75rem;
 }
 
-.h-8 {
-  height: 2rem;
+.h-\[1\.8rem\] {
+  height: 1.8rem;
 }
 
 .h-\[150px\] {
@@ -2753,14 +2753,6 @@ details.collapse summary::-webkit-details-marker {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[1\.9rem\] {
-  height: 1.9rem;
-}
-
-.h-\[1\.8rem\] {
-  height: 1.8rem;
 }
 
 .max-h-10 {
@@ -3646,11 +3638,11 @@ details.collapse summary::-webkit-details-marker {
 
 :root,
 html {
-  overscroll-behavior-y: none;
+  /* overscroll-behavior-y: none; */
 }
 
 body {
-  overscroll-behavior-y: none;
+  /* overscroll-behavior-y: none; */
   color: black;
   font-family: 'Inter', sans-serif;
 }
@@ -4304,14 +4296,14 @@ textarea {
     height: 20rem;
   }
 
-  .md\:size-\[500px\] {
-    width: 500px;
-    height: 500px;
-  }
-
   .md\:size-\[400px\] {
     width: 400px;
     height: 400px;
+  }
+
+  .md\:size-\[500px\] {
+    width: 500px;
+    height: 500px;
   }
 
   .md\:w-\[45\%\] {
@@ -4553,16 +4545,16 @@ textarea {
     height: 650px;
   }
 
+  .lg\:h-8 {
+    height: 2rem;
+  }
+
   .lg\:h-dvh {
     height: 100dvh;
   }
 
   .lg\:h-full {
     height: 100%;
-  }
-
-  .lg\:h-8 {
-    height: 2rem;
   }
 
   .lg\:min-h-\[500px\] {
