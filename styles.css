@@ -2486,6 +2486,14 @@ details.collapse summary::-webkit-details-marker {
   top: 5%;
 }
 
+.-bottom-\[3\%\] {
+  bottom: -3%;
+}
+
+.-bottom-\[8\%\] {
+  bottom: -8%;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -4243,6 +4251,10 @@ textarea {
 
   .md\:right-\[5\%\] {
     right: 5%;
+  }
+
+  .md\:-bottom-\[5\%\] {
+    bottom: -5%;
   }
 
   .md\:mx-10 {
