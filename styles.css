@@ -2726,16 +2726,12 @@ details.collapse summary::-webkit-details-marker {
   height: 2rem;
 }
 
-.h-\[1\.8rem\] {
-  height: 1.8rem;
-}
-
 .h-\[150px\] {
   height: 150px;
 }
 
-.h-\[450px\] {
-  height: 450px;
+.h-\[300px\] {
+  height: 300px;
 }
 
 .h-\[60\%\] {
@@ -2757,10 +2753,6 @@ details.collapse summary::-webkit-details-marker {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[300px\] {
-  height: 300px;
 }
 
 .max-h-10 {
@@ -2807,8 +2799,8 @@ details.collapse summary::-webkit-details-marker {
   width: 260px;
 }
 
-.w-\[450px\] {
-  width: 450px;
+.w-\[300px\] {
+  width: 300px;
 }
 
 .w-\[80\%\] {
@@ -2822,10 +2814,6 @@ details.collapse summary::-webkit-details-marker {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[300px\] {
-  width: 300px;
 }
 
 .min-w-\[260px\] {
@@ -3932,8 +3920,8 @@ img {
 
 .payment-methods-carousel > div {
   display: flex;
-  height: 6rem;
-  min-width: 10rem;
+  height: 4rem;
+  min-width: 5rem;
   align-items: center;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
@@ -3942,8 +3930,8 @@ img {
 
 @media (min-width: 768px) {
   .payment-methods-carousel > div {
-    height: 9rem;
-    min-width: 13rem;
+    height: 7rem;
+    min-width: 11rem;
   }
 }
 
@@ -4519,10 +4507,6 @@ textarea {
     margin-top: 2.5rem;
   }
 
-  .lg\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
   .lg\:mt-20 {
     margin-top: 5rem;
   }
@@ -4565,8 +4549,8 @@ textarea {
     height: 650px;
   }
 
-  .lg\:h-8 {
-    height: 2rem;
+  .lg\:h-\[450px\] {
+    height: 450px;
   }
 
   .lg\:h-dvh {
@@ -4577,16 +4561,16 @@ textarea {
     height: 100%;
   }
 
-  .lg\:h-\[450px\] {
-    height: 450px;
-  }
-
   .lg\:min-h-\[500px\] {
     min-height: 500px;
   }
 
   .lg\:w-\[10ch\] {
     width: 10ch;
+  }
+
+  .lg\:w-\[450px\] {
+    width: 450px;
   }
 
   .lg\:w-\[50\%\] {
@@ -4599,10 +4583,6 @@ textarea {
 
   .lg\:w-full {
     width: 100%;
-  }
-
-  .lg\:w-\[450px\] {
-    width: 450px;
   }
 
   .lg\:max-w-\[40\%\] {
