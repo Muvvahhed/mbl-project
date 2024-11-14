@@ -2755,6 +2755,10 @@ details.collapse summary::-webkit-details-marker {
   height: 100%;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .max-h-10 {
   max-height: 2.5rem;
 }
@@ -2765,6 +2769,10 @@ details.collapse summary::-webkit-details-marker {
 
 .min-h-\[400px\] {
   min-height: 400px;
+}
+
+.min-h-\[70px\] {
+  min-height: 70px;
 }
 
 .w-12 {
@@ -2814,6 +2822,10 @@ details.collapse summary::-webkit-details-marker {
 
 .min-w-full {
   min-width: 100%;
+}
+
+.min-w-\[260px\] {
+  min-width: 260px;
 }
 
 .max-w-fit {
