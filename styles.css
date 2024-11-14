@@ -2684,6 +2684,11 @@ details.collapse summary::-webkit-details-marker {
   height: 24rem;
 }
 
+.size-\[400px\] {
+  width: 400px;
+  height: 400px;
+}
+
 .size-\[500px\] {
   width: 500px;
   height: 500px;
@@ -2831,10 +2836,6 @@ details.collapse summary::-webkit-details-marker {
 
 .rotate-12 {
   --tw-rotate: 12deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -3383,6 +3384,10 @@ details.collapse summary::-webkit-details-marker {
   padding-bottom: 5rem;
 }
 
+.pb-40 {
+  padding-bottom: 10rem;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -3595,12 +3600,26 @@ details.collapse summary::-webkit-details-marker {
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+.transition-all {
+  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.duration-100 {
+  transition-duration: 100ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .scrollbar-hide {
@@ -4010,13 +4029,61 @@ textarea {
   animation: drawLine 2s ease forwards;
 }
 
-.line-1 {
+.active .line-1 {
   stroke-dasharray: 100;
   stroke-dashoffset: 100;
-  animation: drawLine 2s ease forwards;
+  animation: drawLine 3s ease forwards;
 }
 
-.line-2 {
+.active .avatar-group {
+  animation: slideUp 1s ease forwards;
+}
+
+.active button {
+  animation: slideDown 1s ease forwards;
+}
+
+.hero-img:nth-child(1) {
+  animation: slideLeft 1s 0.5s ease both;
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.active .line-2 {
   stroke-dasharray: 500;
   stroke-dashoffset: 500;
   animation: drawLine 3s ease forwards;
@@ -4069,7 +4136,48 @@ textarea {
 }
 
 .hero-img {
-  filter: drop-shadow(0 0 200px rgba(129, 70, 198, 1));
+  filter: drop-shadow(0 0 6rem rgba(129, 70, 198, 1));
+}
+
+.hero-section {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease, transform 1s ease;
+  transform: translateX(100%);
+}
+
+.hero-section.active {
+  position: relative;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hero-section.fade-slide {
+  transform: translateX(100%);
+}
+
+.hero-section.fade-slide.active {
+  transform: translateX(0);
+}
+
+.hero-section.fade-slide.prev {
+  transform: translateX(-100%);
+}
+
+.active h1 {
+  animation: zoomIn 0.6s 0.5s ease-in-out both;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .error {
@@ -4099,6 +4207,15 @@ textarea {
 .placeholder\:text-neutral-700::placeholder {
   --tw-text-opacity: 1;
   color: rgb(64 64 64 / var(--tw-text-opacity));
+}
+
+.hover\:text-purple-400:hover {
+  --tw-text-opacity: 1;
+  color: rgb(192 132 252 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .group:hover .group-hover\:translate-y-2 {
@@ -4172,6 +4289,11 @@ textarea {
   .md\:size-80 {
     width: 20rem;
     height: 20rem;
+  }
+
+  .md\:size-\[500px\] {
+    width: 500px;
+    height: 500px;
   }
 
   .md\:w-\[45\%\] {
@@ -4403,6 +4525,11 @@ textarea {
     height: 24rem;
   }
 
+  .lg\:size-\[600px\] {
+    width: 600px;
+    height: 600px;
+  }
+
   .lg\:size-\[650px\] {
     width: 650px;
     height: 650px;
@@ -4551,6 +4678,10 @@ textarea {
   .lg\:py-\[70px\] {
     padding-top: 70px;
     padding-bottom: 70px;
+  }
+
+  .lg\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .lg\:pt-0 {

@@ -1,0 +1,1649 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	</head>
+	<body class="overflow-x-hidden relative w-full h-full bg-white">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init()
+		</script>
+		<nav class="w-full text-lg text-white bg-primary">
+			<div class="flex items-center mx-[5%] lg:mx-24 py-4">
+				<h2
+					class="md:text-xl ml-auto md:ml-0 flex items-center text-black font-bold"
+				>
+					<img
+						src="./assets/logo.png"
+						alt="logo"
+						class="size-10 object-scale-down"
+					/>
+					Team Force
+				</h2>
+				<ul class="mx-auto gap-5 hidden md:flex">
+					<li>
+						<a
+							href="#"
+							class="hover:underline decoration-green-500 transition-all ease-in-out duration-300"
+							>Home</a
+						>
+					</li>
+					<li>
+						<a
+							href="#"
+							class="hover:underline decoration-green-500 transition-all ease-in-out duration-300"
+							>Pages</a
+						>
+					</li>
+					<li>
+						<a
+							href="#"
+							class="hover:underline decoration-green-500 transition-all ease-in-out duration-300"
+							>Projects</a
+						>
+					</li>
+					<li>
+						<a
+							href="#"
+							class="hover:underline decoration-green-500 transition-all ease-in-out duration-300"
+							>Blog</a
+						>
+					</li>
+					<li>
+						<a
+							href="#"
+							class="hover:underline decoration-green-500 transition-all ease-in-out duration-300"
+							>Contact</a
+						>
+					</li>
+				</ul>
+				<ul class="gap-5 hidden md:flex">
+					<button>Login</button>
+					<button class="primary-btn">Sign Up</button>
+				</ul>
+
+				<div class="dropdown dropdown-bottom dropdown-end ml-auto md:hidden">
+					<div tabindex="0" role="button" class="btn m-1">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							fill="currentColor"
+							class="bi bi-list size-8 fill-white"
+							viewBox="0 0 16 16"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+							/>
+						</svg>
+					</div>
+					<ul
+						tabindex="0"
+						class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow gap-1"
+					>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Pages</a></li>
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+						<div class="flex flex-col border-t py-2 gap-2">
+							<li><button>Login</button></li>
+							<li class="px-2 mb-2">
+								<button class="primary-btn">Sign Up</button>
+							</li>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<main class="h-fit">
+			<!-- HERO SECTION -->
+			<section
+				class="w-full h-dvh overflow-hidden flex scroll-smooth snap-x snap-mandatory scrollbar-hide bg-primary relative"
+			>
+				<div class="light-effect absolute pointer-events-none"></div>
+				<div class="min-w-full h-dvh snap-start hero-carousel-item">
+					<div class="flex size-full lg:mx-24 lg:flex-row flex-col">
+						<div
+							class="flex flex-col pt-5 md:pt-20 lg:pt-0 lg:my-auto mx-auto lg:mx-0 overflow-y-hidden"
+						>
+							<h2
+								class="text-5xl md:text-7xl lg:text-8xl text-white font-bold lg:w-[10ch] text-center lg:text-left"
+							>
+								The next generation payment ways.
+							</h2>
+							<button class="primary-btn mt-10 max-w-fit mx-auto lg:mx-0">
+								Get Started For Free
+							</button>
+							<div class="flex flex-col mt-5 mx-auto lg:mx-0">
+								<p class="text-white">
+									over
+									<span class="font-bold italic"> 50k +</span> clients world
+									wide
+								</p>
+								<div
+									class="avatar-group -space-x-6 rtl:space-x-reverse bg-primary"
+								>
+									<div class="avatar border-primary">
+										<div class="w-12">
+											<img
+												src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww"
+											/>
+										</div>
+									</div>
+									<div class="avatar border-primary">
+										<div class="w-12">
+											<img
+												src="https://plus.unsplash.com/premium_photo-1658527049634-15142565537a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww"
+											/>
+										</div>
+									</div>
+									<div class="avatar border-primary">
+										<div class="w-12">
+											<img
+												src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fHww"
+											/>
+										</div>
+									</div>
+									<div class="avatar border-primary">
+										<div class="w-12">
+											<img
+												src="https://plus.unsplash.com/premium_photo-1671656349218-5218444643d8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXZhdGFyfGVufDB8fDB8fHww"
+											/>
+										</div>
+									</div>
+									<div class="avatar border-primary">
+										<div class="w-12">
+											<img
+												src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fHww"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div
+							class="h-[60%] lg:h-full w-full lg:w-[70%] flex justify-end mt-auto lg:ml-auto"
+						>
+							<img
+								src="./assets/hero-1.png"
+								alt="hero-img"
+								class="size-[90%] object-scale-down mt-auto object-bottom"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="min-w-full h-dvh snap-start hero-carousel-item bg-secondary"
+				>
+					<div class="flex size-full mt-auto lg:mx-24 lg:flex-row flex-col">
+						<div
+							class="flex flex-col pt-5 md:pt-20 lg:pt-0 mx-auto lg:my-auto lg:mx-0 overflow-y-hidden overflow-x-hidden"
+						>
+							<h2
+								class="text-5xl md:text-7xl lg:text-8xl text-white font-bold lg:w-[10ch] text-center lg:text-left"
+							>
+								Seamless Finance, Anytime, Anywhere.
+							</h2>
+							<button class="primary-btn mt-10 max-w-fit mx-auto lg:mx-0">
+								Get Started For Free
+							</button>
+						</div>
+						<div
+							class="h-[60%] lg:h-full w-full lg:w-[70%] flex justify-start items-start mt-auto lg:ml-auto"
+						>
+							<img
+								src="./assets/Payment_process_Illustration.png"
+								alt="hero-img"
+								class="size-auto object-cover lg:object-scale-down lg:mt-auto"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="min-w-full h-dvh snap-start hero-carousel-item bg-purple-500"
+				>
+					<div class="flex size-full mt-auto lg:mx-24 lg:flex-row flex-col">
+						<div
+							class="flex flex-col pt-5 md:pt-20 lg:pt-0 mx-auto lg:my-auto lg:mx-0 overflow-y-hidden overflow-x-hidden"
+						>
+							<h2
+								class="text-5xl md:text-7xl lg:text-8xl font-bold lg:w-[10ch] text-center lg:text-left text-white"
+							>
+								Manage your finance with ease.
+							</h2>
+							<button class="primary-btn mt-10 max-w-fit mx-auto lg:mx-0">
+								Get Started For Free
+							</button>
+						</div>
+						<div
+							class="h-[60%] lg:h-full w-full lg:w-[70%] flex justify-start items-start lg:mt-auto lg:ml-auto"
+						>
+							<img
+								src="./assets/finance.png"
+								alt="Finance, HD Png Download@kindpng.com"
+								class="object-scale-down size-full object-bottom"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section
+				data-aos="fade-up"
+				class="w-full bg-white flex flex-col pt-14 md:pt-24"
+			>
+				<div class="w-full lg:w-[50%] mx-auto text-center flex-col flex gap-4">
+					<h2
+						class="text-4xl md:text-5xl lg:text-7xl font-semibold mx-4 text-slate-600"
+					>
+						You'll love our powerful payments
+					</h2>
+					<p class="text-2xl">We've got all your payments covered</p>
+				</div>
+
+				<div
+					class="grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 gap-4 md:gap-8 w-full px-4 lg:px-[10%] pt-10 pb-5 flex-grow"
+				>
+					<div
+						class="bg-gradient-to-r from-[#fff6f1] to-[#fceff0] rounded-2xl p-4 md:p-8 flex items-center md:items-start justify-between"
+					>
+						<div>
+							<h4 class="text-xl md:text-4xl text-black">Scan & Go</h4>
+							<p class="text-gray-500 md:text-lg mt-2 md:mt-4">
+								Transform payments link into QR code
+							</p>
+						</div>
+						<img
+							src="./assets//qr-code.png"
+							alt=""
+							class="size-20 md:size-52"
+						/>
+					</div>
+					<div
+						class="bg-gradient-to-r from-[#eaf1ff] to-[#dfe8ff] rounded-2xl p-4 md:p-8 relative flex items-center md:items-start justify-between"
+					>
+						<div>
+							<h4 class="text-xl md:text-4xl text-black">
+								Easily send requests via email or sms
+							</h4>
+							<p class="text-gray-500 md:text-lg mt-2 md:mt-4">
+								Recieve and send payments through USSD and emails
+							</p>
+						</div>
+
+						<img
+							src="./assets//mail.png"
+							alt=""
+							class="size-40 md:size-60 -bottom-8 lg:-bottom-10 right-0"
+						/>
+					</div>
+					<div
+						class="bg-gradient-to-r from-[#f6edfd] to-[#ebd1ff] lg:col-span-2 rounded-2xl p-4 md:p-8 flex"
+					>
+						<div>
+							<h4 class="text-xl md:text-4xl text-black">
+								Onling Billing & invoicing payments
+							</h4>
+							<p class="text-gray-500 z-50 md:text-lg mt-2 md:mt-4">
+								Get paid faster with online invoicing and the virtual terminal
+							</p>
+						</div>
+						<img
+							src="./assets/ecommerce-2.png "
+							alt=""
+							class="size-40 md:size-60 object-cover ml-auto"
+						/>
+						<img
+							src="./assets/ecommerce.png"
+							alt=""
+							class="lg:block hidden size-60 object-cover"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<section
+				class="w-full bg-white flex flex-col pt-10 space-y-10"
+				data-aos="fade-up"
+			>
+				<div class="w-full lg:w-[50%] mx-auto text-center flex-col flex gap-4">
+					<h2
+						class="text-4xl md:text-5xl lg:text-7xl font-semibold mx-4 text-slate-600"
+					>
+						All Major Payment Methods
+					</h2>
+					<p class="text-2xl">We've got all your payments covered</p>
+				</div>
+				<div>
+					<img src="./assets/payment-methods.png" alt="" class="mx-auto" />
+				</div>
+			</section>
+
+			<section
+				data-aos="fade-up"
+				class="bg-[url('./assets/wave.svg')] bg-cover bg-no-repeat bg-top w-full pt-[60%] md:pt-[30%] lg:pt-[20%] pb-20 flex flex-col px-5 md:px-10 lg:px-[10%]"
+			>
+				<div class="w-full flex flex-col md:flex-row justify-around">
+					<div class="space-y-5 text-black">
+						<h2 class="text-3xl md:text-4xl lg:text-6xl font-semibold">
+							We Provide the
+							<p>Best Service for You.</p>
+						</h2>
+						<p class="text-lg md:text:xl lg:text-2xl font-extralight">
+							We've got all your payments covered
+						</p>
+					</div>
+					<div
+						class="flex flex-col gap-4 items-stretch text-black mt-10"
+						data-aos="fade-up"
+					>
+						<div class="flex justify-around gap-4">
+							<div class="flex flex-col">
+								<span class="text-xl md:text-3xl lg:text-4xl font-bold"
+									>5M+</span
+								>
+								<span class="text-sm md:text-base text-slate-600"
+									>Active Users</span
+								>
+							</div>
+							<div class="flex flex-col">
+								<span class="text-xl md:text-3xl lg:text-4xl font-bold"
+									>300+</span
+								>
+								<span class="text-sm md:text-base text-slate-600"
+									>Trusted Companies</span
+								>
+							</div>
+							<div class="flex flex-col">
+								<span class="text-xl md:text-3xl lg:text-4xl font-bold"
+									>78K</span
+								>
+								<span class="text-sm md:text-base text-slate-600"
+									>Customer Care</span
+								>
+							</div>
+						</div>
+						<img src="./assets/R.png" alt="" class="object-cover" />
+					</div>
+				</div>
+
+				<div
+					class="w-full justify-around md:flex grid grid-cols-2 mt-20 gap-8 md:gap-0 place-items-center"
+				>
+					<div class="relative size-32 md:size-40 lg:size-52">
+						<div
+							class="absolute size-32 md:size-40 lg:size-52 rounded-2xl bg-primary rotate-12"
+						></div>
+						<div
+							class="absolute size-32 md:size-40 lg:size-52 rounded-2xl bg-white/25 glass text-black p-4 lg:p-6 flex flex-col justify-between"
+						>
+							<i class="bi bi-globe text-xl md:text-3xl lg:text-4xl"></i>
+							<h4 class="md:text-lg lg:text-xl font-semibold">Online</h4>
+						</div>
+					</div>
+					<div class="relative size-32 md:size-40 lg:size-52">
+						<div
+							class="absolute size-32 md:size-40 lg:size-52 rounded-2xl bg-secondary rotate-12"
+						></div>
+						<div
+							class="absolute size-32 md:size-40 lg:size-52 rounded-2xl bg-white/25 glass text-black p-4 lg:p-6 flex flex-col justify-between"
+						>
+							<i class="bi bi-bank text-xl md:text-3xl lg:text-4xl"></i>
+							<h4 class="md:text-lg lg:text-xl font-semibold">
+								Bank Transfers
+							</h4>
+						</div>
+					</div>
+					<div class="relative size-32 md:size-40 lg:size-52">
+						<div
+							class="absolute size-32 md:size-40 lg:size-52 rounded-2xl bg-accent rotate-12"
+						></div>
+						<div
+							class="absolute size-32 md:size-40 lg:size-52 rounded-2xl bg-white/25 glass text-black p-4 lg:p-6 flex flex-col justify-between"
+						>
+							<i class="bi bi-keyboard text-xl md:text-3xl lg:text-4xl"></i>
+							<h4 class="md:text-lg lg:text-xl font-semibold">Keyed</h4>
+						</div>
+					</div>
+					<div class="relative size-32 md:size-40 lg:size-52">
+						<div
+							class="absolute size-32 md:size-40 lg:size-52 rounded-2xl bg-amber-400 rotate-12"
+						></div>
+						<div
+							class="absolute size-32 md:size-40 lg:size-52 rounded-2xl bg-white/25 glass text-black p-4 lg:p-6 flex flex-col justify-between"
+						>
+							<i class="bi bi-incognito text-xl md:text-3xl lg:text-4xl"></i>
+							<h4 class="md:text-lg lg:text-xl font-semibold">In-person</h4>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="rounded-2xl w-full bg-pink-200 p-8 mt-20 md:mt-40 text-black"
+				>
+					<h4 class="text-xl md:text-3xl font-semibold text-pink-500">
+						More free tools you can handle
+					</h4>
+					<div
+						class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-5"
+					>
+						<span class="text-sm md:text-lg flex gap-2 items-center"
+							><div class="rounded-full bg-pink-500 size-2"></div>
+							Invoicing</span
+						>
+						<span class="text-sm md:text-lg flex gap-2 items-center"
+							><div class="rounded-full bg-pink-500 size-2"></div>
+							Online Checkout</span
+						>
+						<span class="text-sm md:text-lg flex gap-2 items-center"
+							><div class="rounded-full bg-pink-500 size-2"></div>
+							Point-of-sale</span
+						>
+						<span class="text-sm md:text-lg flex gap-2 items-center"
+							><div class="rounded-full bg-pink-500 size-2"></div>
+							Online food ordering</span
+						>
+						<span class="text-sm md:text-lg flex gap-2 items-center"
+							><div class="rounded-full bg-pink-500 size-2"></div>
+							Icard vault</span
+						>
+						<span class="text-sm md:text-lg flex gap-2 items-center"
+							><div class="rounded-full bg-pink-500 size-2"></div>
+							Customer portal</span
+						>
+						<span class="text-sm md:text-lg flex gap-2 items-center"
+							><div class="rounded-full bg-pink-500 size-2"></div>
+							Inverntory</span
+						>
+						<span class="text-sm md:text-lg flex gap-2 items-center"
+							><div class="rounded-full bg-pink-500 size-2"></div>
+							Virtual Terminal</span
+						>
+						<span class="text-sm md:text-lg flex gap-2 items-center"
+							><div class="rounded-full bg-pink-500 size-2"></div>
+							Recurring plans</span
+						>
+						<span class="text-sm md:text-lg flex gap-2 items-center"
+							><div class="rounded-full bg-pink-500 size-2"></div>
+							QR codes</span
+						>
+						<span class="text-sm md:text-lg flex gap-2 items-center"
+							><div class="rounded-full bg-pink-500 size-2"></div>
+							Payment links</span
+						>
+						<span class="text-sm md:text-lg flex gap-2 items-center"
+							><div class="rounded-full bg-pink-500 size-2"></div>
+							SMS pyments</span
+						>
+					</div>
+				</div>
+
+				<div
+					class="w-full flex gap-10 md:gap-0 md:justify-between mt-20 md:mt-40 flex-col md:flex-row"
+				>
+					<div
+						class="w-full md:w-[50%] bg-[url('./assets/stack.png')] rounded-2xl exited-to-start flex items-center justify-center mask mask-circle pt-10"
+					>
+						<img
+							src="./assets/happy-woman.png"
+							alt="excited to start"
+							class="object-scale-down"
+						/>
+					</div>
+					<div class="w-full md:w-[45%] text-black">
+						<span class="md:text-xl underline decoration-green-500"
+							>Open An Account</span
+						>
+						<h3 class="text-5xl font-semibold">Let's get started</h3>
+						<div class="flex flex-col gap-8 mt-10 md:text-xl">
+							<div class="flex gap-4 items-center">
+								<span class="text-green-500 text-lg md:text-2xl font-semibold"
+									>01</span
+								>
+								<span>Sign up in a few minutes</span>
+							</div>
+							<div class="flex gap-4 items-center">
+								<span class="text-green-500 text-lg md:text-2xl font-semibold"
+									>02</span
+								>
+								<span>Let us verify your identity</span>
+							</div>
+							<div class="flex gap-4 items-center">
+								<span class="text-green-500 text-lg md:text-2xl font-semibold"
+									>03</span
+								>
+								<span
+									>Your account is open; you can send your first payment</span
+								>
+							</div>
+						</div>
+						<button class="primary-btn mt-10">
+							Open an Account in minutes
+						</button>
+						<p class="text-black/50 text-sm mt-2">
+							Try it for 30 days for free, no obligations
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section
+				data-aos="fade-up"
+				class="w-full pt-50 bg-primary py-20 text-white flex flex-col"
+			>
+				<h3 class="text-4xl md:text-6xl text-center">
+					What people
+					<p>are saying about us</p>
+				</h3>
+
+				<div class="carousel mx-2 lg:mx-auto mt-20">
+					<div
+						id="item1"
+						class="carousel-item w-full flex justify-center gap-4 md:gap-6 lg:gap-10 items-center flex-wrap"
+					>
+						<div
+							class="size-60 lg:size-72 bg-white/10 rounded-2xl relative flex flex-col justify-between p-6 lg:p-8"
+						>
+							<div
+								class="absolute top-0 left-0 border-t border-l size-20 rounded-tl-2xl"
+							></div>
+							<div
+								class="absolute bottom-0 right-0 border-b border-r size-20 rounded-br-2xl"
+							></div>
+
+							<div class="rating rating-sm">
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+							</div>
+
+							<p class="text-sm lg:text-base font-semibold">
+								"Everything promised and more! It's rare to find a company that
+								delivers on its word."
+							</p>
+							<div class="flex items-center gap-2">
+								<div class="avatar">
+									<div class="w-12 rounded-full">
+										<img
+											src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+										/>
+									</div>
+								</div>
+								<div>
+									<h5 class="lg:text-lg">Lana Rey</h5>
+									<p class="text-xs lg:text-sm">Founder & leader</p>
+								</div>
+							</div>
+						</div>
+						<div
+							class="size-60 lg:size-72 bg-white/10 rounded-2xl relative flex flex-col justify-between p-6 lg:p-8"
+						>
+							<div
+								class="absolute top-0 left-0 border-t border-l size-20 rounded-tl-2xl"
+							></div>
+							<div
+								class="absolute bottom-0 right-0 border-b border-r size-20 rounded-br-2xl"
+							></div>
+
+							<div class="rating rating-sm">
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+							</div>
+
+							<p class="text-sm lg:text-base font-semibold">
+								"Everything promised and more! It's rare to find a company that
+								delivers on its word."
+							</p>
+							<div class="flex items-center gap-2">
+								<div class="avatar">
+									<div class="w-12 rounded-full">
+										<img
+											src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+										/>
+									</div>
+								</div>
+								<div>
+									<h5 class="lg:text-lg">Lana Rey</h5>
+									<p class="text-xs lg:text-sm">Founder & leader</p>
+								</div>
+							</div>
+						</div>
+						<div
+							class="size-60 lg:size-72 bg-white/10 rounded-2xl relative flex flex-col justify-between p-6 lg:p-8"
+						>
+							<div
+								class="absolute top-0 left-0 border-t border-l size-20 rounded-tl-2xl"
+							></div>
+							<div
+								class="absolute bottom-0 right-0 border-b border-r size-20 rounded-br-2xl"
+							></div>
+
+							<div class="rating rating-sm">
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+							</div>
+
+							<p class="text-sm lg:text-base font-semibold">
+								"Everything promised and more! It's rare to find a company that
+								delivers on its word."
+							</p>
+							<div class="flex items-center gap-2">
+								<div class="avatar">
+									<div class="w-12 rounded-full">
+										<img
+											src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+										/>
+									</div>
+								</div>
+								<div>
+									<h5 class="lg:text-lg">Lana Rey</h5>
+									<p class="text-xs lg:text-sm">Founder & leader</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div
+						id="item2"
+						class="carousel-item w-full flex justify-center gap-4 md:gap-6 lg:gap-10 items-center flex-wrap"
+					>
+						<div
+							class="size-60 lg:size-72 bg-white/10 rounded-2xl relative flex flex-col justify-between p-6 lg:p-8"
+						>
+							<div
+								class="absolute top-0 left-0 border-t border-l size-20 rounded-tl-2xl"
+							></div>
+							<div
+								class="absolute bottom-0 right-0 border-b border-r size-20 rounded-br-2xl"
+							></div>
+
+							<div class="rating rating-sm">
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+							</div>
+
+							<p class="text-sm lg:text-base font-semibold">
+								"Everything promised and more! It's rare to find a company that
+								delivers on its word."
+							</p>
+							<div class="flex items-center gap-2">
+								<div class="avatar">
+									<div class="w-12 rounded-full">
+										<img
+											src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+										/>
+									</div>
+								</div>
+								<div>
+									<h5 class="lg:text-lg">Lana Rey</h5>
+									<p class="text-xs lg:text-sm">Founder & leader</p>
+								</div>
+							</div>
+						</div>
+						<div
+							class="size-60 lg:size-72 bg-white/10 rounded-2xl relative flex flex-col justify-between p-6 lg:p-8"
+						>
+							<div
+								class="absolute top-0 left-0 border-t border-l size-20 rounded-tl-2xl"
+							></div>
+							<div
+								class="absolute bottom-0 right-0 border-b border-r size-20 rounded-br-2xl"
+							></div>
+
+							<div class="rating rating-sm">
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+							</div>
+
+							<p class="text-sm lg:text-base font-semibold">
+								"Everything promised and more! It's rare to find a company that
+								delivers on its word."
+							</p>
+							<div class="flex items-center gap-2">
+								<div class="avatar">
+									<div class="w-12 rounded-full">
+										<img
+											src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+										/>
+									</div>
+								</div>
+								<div>
+									<h5 class="lg:text-lg">Lana Rey</h5>
+									<p class="text-xs lg:text-sm">Founder & leader</p>
+								</div>
+							</div>
+						</div>
+						<div
+							class="size-60 lg:size-72 bg-white/10 rounded-2xl relative flex flex-col justify-between p-6 lg:p-8"
+						>
+							<div
+								class="absolute top-0 left-0 border-t border-l size-20 rounded-tl-2xl"
+							></div>
+							<div
+								class="absolute bottom-0 right-0 border-b border-r size-20 rounded-br-2xl"
+							></div>
+
+							<div class="rating rating-sm">
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+							</div>
+
+							<p class="text-sm lg:text-base font-semibold">
+								"Everything promised and more! It's rare to find a company that
+								delivers on its word."
+							</p>
+							<div class="flex items-center gap-2">
+								<div class="avatar">
+									<div class="w-12 rounded-full">
+										<img
+											src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+										/>
+									</div>
+								</div>
+								<div>
+									<h5 class="lg:text-lg">Lana Rey</h5>
+									<p class="text-xs lg:text-sm">Founder & leader</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div
+						id="item3"
+						class="carousel-item w-full flex justify-center gap-4 md:gap-6 lg:gap-10 items-center flex-wrap"
+					>
+						<div
+							class="size-60 lg:size-72 bg-white/10 rounded-2xl relative flex flex-col justify-between p-6 lg:p-8"
+						>
+							<div
+								class="absolute top-0 left-0 border-t border-l size-20 rounded-tl-2xl"
+							></div>
+							<div
+								class="absolute bottom-0 right-0 border-b border-r size-20 rounded-br-2xl"
+							></div>
+
+							<div class="rating rating-sm">
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+							</div>
+
+							<p class="text-sm lg:text-base font-semibold">
+								"Everything promised and more! It's rare to find a company that
+								delivers on its word."
+							</p>
+							<div class="flex items-center gap-2">
+								<div class="avatar">
+									<div class="w-12 rounded-full">
+										<img
+											src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+										/>
+									</div>
+								</div>
+								<div>
+									<h5 class="lg:text-lg">Lana Rey</h5>
+									<p class="text-xs lg:text-sm">Founder & leader</p>
+								</div>
+							</div>
+						</div>
+						<div
+							class="size-60 lg:size-72 bg-white/10 rounded-2xl relative flex flex-col justify-between p-6 lg:p-8"
+						>
+							<div
+								class="absolute top-0 left-0 border-t border-l size-20 rounded-tl-2xl"
+							></div>
+							<div
+								class="absolute bottom-0 right-0 border-b border-r size-20 rounded-br-2xl"
+							></div>
+
+							<div class="rating rating-sm">
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+							</div>
+
+							<p class="text-sm lg:text-base font-semibold">
+								"Everything promised and more! It's rare to find a company that
+								delivers on its word."
+							</p>
+							<div class="flex items-center gap-2">
+								<div class="avatar">
+									<div class="w-12 rounded-full">
+										<img
+											src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+										/>
+									</div>
+								</div>
+								<div>
+									<h5 class="lg:text-lg">Lana Rey</h5>
+									<p class="text-xs lg:text-sm">Founder & leader</p>
+								</div>
+							</div>
+						</div>
+						<div
+							class="size-60 lg:size-72 bg-white/10 rounded-2xl relative flex flex-col justify-between p-6 lg:p-8"
+						>
+							<div
+								class="absolute top-0 left-0 border-t border-l size-20 rounded-tl-2xl"
+							></div>
+							<div
+								class="absolute bottom-0 right-0 border-b border-r size-20 rounded-br-2xl"
+							></div>
+
+							<div class="rating rating-sm">
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+							</div>
+
+							<p class="text-sm lg:text-base font-semibold">
+								"Everything promised and more! It's rare to find a company that
+								delivers on its word."
+							</p>
+							<div class="flex items-center gap-2">
+								<div class="avatar">
+									<div class="w-12 rounded-full">
+										<img
+											src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+										/>
+									</div>
+								</div>
+								<div>
+									<h5 class="lg:text-lg">Lana Rey</h5>
+									<p class="text-xs lg:text-sm">Founder & leader</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div
+						id="item4"
+						class="carousel-item w-full flex justify-center gap-4 md:gap-6 lg:gap-10 items-center flex-wrap"
+					>
+						<div
+							class="size-60 lg:size-72 bg-white/10 rounded-2xl relative flex flex-col justify-between p-6 lg:p-8"
+						>
+							<div
+								class="absolute top-0 left-0 border-t border-l size-20 rounded-tl-2xl"
+							></div>
+							<div
+								class="absolute bottom-0 right-0 border-b border-r size-20 rounded-br-2xl"
+							></div>
+
+							<div class="rating rating-sm">
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+							</div>
+
+							<p class="text-sm lg:text-base font-semibold">
+								"Everything promised and more! It's rare to find a company that
+								delivers on its word."
+							</p>
+							<div class="flex items-center gap-2">
+								<div class="avatar">
+									<div class="w-12 rounded-full">
+										<img
+											src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+										/>
+									</div>
+								</div>
+								<div>
+									<h5 class="lg:text-lg">Lana Rey</h5>
+									<p class="text-xs lg:text-sm">Founder & leader</p>
+								</div>
+							</div>
+						</div>
+						<div
+							class="size-60 lg:size-72 bg-white/10 rounded-2xl relative flex flex-col justify-between p-6 lg:p-8"
+						>
+							<div
+								class="absolute top-0 left-0 border-t border-l size-20 rounded-tl-2xl"
+							></div>
+							<div
+								class="absolute bottom-0 right-0 border-b border-r size-20 rounded-br-2xl"
+							></div>
+
+							<div class="rating rating-sm">
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+							</div>
+
+							<p class="text-sm lg:text-base font-semibold">
+								"Everything promised and more! It's rare to find a company that
+								delivers on its word."
+							</p>
+							<div class="flex items-center gap-2">
+								<div class="avatar">
+									<div class="w-12 rounded-full">
+										<img
+											src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+										/>
+									</div>
+								</div>
+								<div>
+									<h5 class="lg:text-lg">Lana Rey</h5>
+									<p class="text-xs lg:text-sm">Founder & leader</p>
+								</div>
+							</div>
+						</div>
+						<div
+							class="size-60 lg:size-72 bg-white/10 rounded-2xl relative flex flex-col justify-between p-6 lg:p-8"
+						>
+							<div
+								class="absolute top-0 left-0 border-t border-l size-20 rounded-tl-2xl"
+							></div>
+							<div
+								class="absolute bottom-0 right-0 border-b border-r size-20 rounded-br-2xl"
+							></div>
+
+							<div class="rating rating-sm">
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+								<input
+									type="radio"
+									name="rating-8"
+									class="mask mask-star-2 bg-yellow-500"
+									checked="checked"
+								/>
+							</div>
+
+							<p class="text-sm lg:text-base font-semibold">
+								"Everything promised and more! It's rare to find a company that
+								delivers on its word."
+							</p>
+							<div class="flex items-center gap-2">
+								<div class="avatar">
+									<div class="w-12 rounded-full">
+										<img
+											src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+										/>
+									</div>
+								</div>
+								<div>
+									<h5 class="lg:text-lg">Lana Rey</h5>
+									<p class="text-xs lg:text-sm">Founder & leader</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flex w-full justify-center gap-2 py-2 mt-8">
+					<a
+						href="#item1"
+						id="testimonial-carousel-1"
+						class="testimonial-carousel-button"
+						><div class="rounded-full bg-white size-3 border-white border"></div
+					></a>
+					<a
+						href="#item2"
+						id="testimonial-carousel-2"
+						class="testimonial-carousel-button"
+						><div class="rounded-full size-3 border-white border"></div
+					></a>
+					<a
+						href="#item3"
+						id="testimonial-carousel-3"
+						class="testimonial-carousel-button"
+						><div class="rounded-full size-3 border-white border"></div
+					></a>
+					<a
+						href="#item4"
+						id="testimonial-carousel-4"
+						class="testimonial-carousel-button"
+						><div class="rounded-full size-3 border-white border"></div
+					></a>
+				</div>
+			</section>
+
+			<section
+				data-aos="fade-up"
+				class="lg:h-dvh bg-white w-full flex-col md:flex-row flex px-5 md:px-10 lg:px-[10%] gap-10 md:gap-4 text-black py-20"
+			>
+				<div class="md:w-[50%] flex flex-col">
+					<h5 class="lg:text-xl underline decoration-green-500">Support</h5>
+					<h3 class="text-3xl md:text-4xl lg:text-6xl font-semibold">
+						Frequently Asked Questions
+					</h3>
+					<p class="text-neutral-600 lgLtext-lg mt-4">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Doloremque, repellat voluptas eaque soluta voluptatum beatae ipsam,
+						cul
+					</p>
+					<div class="grid grid-cols-2 lg:grid-cols-3 mt-4">
+						<div>
+							<button class="primary-btn">Get in Touch</button>
+						</div>
+						<img
+							src="./assets/gethelp.png"
+							alt="help-img"
+							class="size-full col-span-2 object-top"
+						/>
+					</div>
+				</div>
+				<div class="md:w-[50%] space-y-4 lg:space-y-6">
+					<div
+						tabindex="0"
+						class="collapse collapse-plus border-neutral-300 border-b bg-white"
+					>
+						<div class="collapse-title text-xl lg:text-2xl font-semibold">
+							Do I need to change banks
+						</div>
+						<div
+							class="collapse-content border-l border-r border-neutral-300 text-neutral-600 lg:text-lg"
+						>
+							<p>
+								The team force is built into your dashboard, and is immediately
+								accessible after sigining up
+							</p>
+						</div>
+					</div>
+					<div
+						tabindex="2"
+						class="collapse collapse-plus border-neutral-300 border-b bg-white"
+					>
+						<div class="collapse-title text-xl lg:text-2xl font-semibold">
+							How do I change my bank
+						</div>
+						<div
+							class="collapse-content border-l border-r border-neutral-300 text-neutral-600 lg:text-lg"
+						>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+								omnis officia nesciunt, non, cumque facilis eum aspernatur
+							</p>
+						</div>
+					</div>
+					<div
+						tabindex="3"
+						class="collapse collapse-plus border-neutral-300 border-b bg-white"
+					>
+						<div class="collapse-title text-xl lg:text-2xl font-semibold">
+							How does sigining up works
+						</div>
+						<div
+							class="collapse-content border-l border-r border-neutral-300 text-neutral-600 lg:text-lg"
+						>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad
+								dicta corrupti ex, delectus perferendis, eligendi repudiandae,
+							</p>
+						</div>
+					</div>
+					<div
+						tabindex="4"
+						class="collapse collapse-plus border-neutral-300 border-b bg-white"
+					>
+						<div class="collapse-title text-xl lg:text-2xl font-semibold">
+							How Can I order equipment
+						</div>
+						<div
+							class="collapse-content border-l border-r border-neutral-300 text-neutral-600 lg:text-lg"
+						>
+							<p>
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Reiciendis, sapiente voluptate fugit laborum nisi, molestias
+								nobis vitae
+							</p>
+						</div>
+					</div>
+					<div
+						tabindex="5"
+						class="collapse collapse-plus border-neutral-300 border-b bg-white"
+					>
+						<div class="collapse-title text-xl lg:text-2xl font-semibold">
+							How to recover password
+						</div>
+						<div
+							class="collapse-content border-l border-r border-neutral-300 text-neutral-600 lg:text-lg"
+						>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
+								ullam optio ab veritatis nesciunt atque perspiciatis esse
+								temporibus
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section
+				data-aos="fade-up"
+				class="w-full half-colored-div flex flex-col"
+				id="contactForm"
+			>
+				<form
+					class="bg-primary lg:w-[70%] my-auto lg:mx-auto rounded-2xl flex flex-col py-12 gap-4 mx-4 md:mx-20"
+				>
+					<input
+						required
+						type="text"
+						name="user_name"
+						placeholder="Full name"
+						class="rounded-3xl w-[80%] lg:w-[50%] mx-auto py-2 lg:py-4 px-4 lg:px-6 bg-white placeholder:text-neutral-700 text-neutral-700 lg:text-lg"
+					/>
+					<input
+						required
+						name="user_email"
+						type="email"
+						type="text"
+						placeholder="Email address"
+						class="rounded-3xl w-[80%] lg:w-[50%] mx-auto py-2 lg:py-4 px-4 lg:px-6 bg-white placeholder:text-neutral-700 text-neutral-700 lg:text-lg"
+					/>
+					<input
+						required
+						name="user_phone"
+						type="text"
+						placeholder="Phone Number"
+						class="rounded-3xl w-[80%] lg:w-[50%] mx-auto py-2 lg:py-4 px-4 lg:px-6 bg-white placeholder:text-neutral-700 text-neutral-700 lg:text-lg"
+					/>
+					<textarea
+						required
+						name="user_message"
+						type="text"
+						placeholder="Enter Your Message"
+						rows="3"
+						class="rounded-3xl w-[80%] lg:w-[50%] mx-auto py-2 lg:py-4 px-4 lg:px-6 bg-white placeholder:text-neutral-700 text-neutral-700 lg:text-lg"
+					></textarea>
+					<div class="flex justify-center">
+						<button class="primary-btn" id="submit-btn">Get Started Now</button>
+					</div>
+				</form>
+			</section>
+		</main>
+		<footer class="w-full bg-pink-100 py-10">
+			<div
+				class="grid grid-cols-2 md:grid-cols-4 mx-5 md:mx-10 lg:mx-24 gap-4 md:gap-6 text-neutral-600"
+			>
+				<div>
+					<h5 class="text-black flex items-center font-bold">
+						<img
+							src="./assets/logo.png"
+							alt="logo"
+							class="size-10 object-scale-down"
+						/>TeamForce
+					</h5>
+					<p>Lorem, ipsum dolor sit amet.</p>
+					<div class="mt-4">
+						<span class="flex gap-2 items-center"
+							><svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="16"
+								fill="currentColor"
+								class="bi bi-telephone-fill"
+								viewBox="0 0 16 16"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+								/>
+							</svg>
+							+9999999999</span
+						>
+					</div>
+					<div>
+						<span class="flex gap-2 items-center text-sm lg:text-base">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="16"
+								fill="currentColor"
+								class="bi bi-chat-right-text-fill"
+								viewBox="0 0 16 16"
+							>
+								<path
+									d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353zM3.5 3h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1m0 2.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1m0 2.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1"
+								/>
+							</svg>
+							teamforce@loremipsum.com</span
+						>
+					</div>
+				</div>
+				<div>
+					<h5 class="text-xl text-secondary font-semibold">Solutions</h5>
+					<ul class="mt-4 space-y-2">
+						<li class="flex items-center gap-2">
+							<div class="size-1 mt-1 rounded-full bg-black"></div>
+							<a href="#">Payments</a>
+						</li>
+						<li class="flex items-center gap-2">
+							<div class="size-1 mt-1 rounded-full bg-black"></div>
+							<a href="#">Advances</a>
+						</li>
+						<li class="flex items-center gap-2">
+							<div class="size-1 mt-1 rounded-full bg-black"></div>
+							<a href="#">Online Checkout</a>
+						</li>
+						<li class="flex items-center gap-2">
+							<div class="size-1 mt-1 rounded-full bg-black"></div>
+							<a href="#">Dashboard</a>
+						</li>
+						<li class="flex items-center gap-2">
+							<div class="size-1 mt-1 rounded-full bg-black"></div>
+							<a href="#">Get Started</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h5 class="text-xl text-secondary font-semibold">Other Pages</h5>
+					<ul class="mt-4 space-y-2">
+						<li class="flex items-center gap-2">
+							<div class="size-1 mt-1 rounded-full bg-black"></div>
+							<a href="#">About</a>
+						</li>
+						<li class="flex items-center gap-2">
+							<div class="size-1 mt-1 rounded-full bg-black"></div>
+							<a href="#">Services</a>
+						</li>
+						<li class="flex items-center gap-2">
+							<div class="size-1 mt-1 rounded-full bg-black"></div>
+							<a href="#">How it works</a>
+						</li>
+						<li class="flex items-center gap-2">
+							<div class="size-1 mt-1 rounded-full bg-black"></div>
+							<a href="#">Pricing Plan</a>
+						</li>
+						<li class="flex items-center gap-2">
+							<div class="size-1 mt-1 rounded-full bg-black"></div>
+							<a href="#">Blog</a>
+						</li>
+						<li class="flex items-center gap-2">
+							<div class="size-1 mt-1 rounded-full bg-black"></div>
+							<a href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h5 class="text-xl text-secondary font-semibold">Download App</h5>
+					<div
+						class="flex lg:flex-row flex-col-reverse w-fit lg:w-full mt-4 gap-4"
+					>
+						<img
+							src="./assets/qr-code-2.png"
+							alt="qrcode"
+							class="size-24 bg-white rounded-2xl p-2"
+						/>
+						<div class="flex flex-col gap-2">
+							<a
+								href="#"
+								class="flex items-center gap-2 bg-slate-800 text-white rounded-lg px-4 py-2"
+								><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-apple fill-white"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"
+									/>
+									<path
+										d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"
+									/></svg
+								>App store</a
+							>
+							<a
+								href="#"
+								class="flex items-center gap-2 bg-white text-slate-800 rounded-lg px-4 py-2"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-google-play fill-slate-800"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055zM1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27"
+									/>
+								</svg>
+								Google Play</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="toast toast-top md:toast-end hidden" id="toast">
+			<div class="alert text-white border-0" id="toast-message">
+				<span>Email sent successfully.</span>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+		<script>
+			;(function () {
+				emailjs.init('OvNrf25ZCtZGy-c2X')
+			})()
+		</script>
+
+		<script src="./index.js"></script>
+	</body>
+</html>
