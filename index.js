@@ -263,7 +263,6 @@ const indicators = document.querySelectorAll('button[id^="indicator-"]')
 
 function setActiveSlide(index) {
 	// Scroll to the carousel item
-
 	document
 		.getElementById(`testimonial-item-${index}`)
 		.scrollIntoView({ behavior: 'smooth' })
