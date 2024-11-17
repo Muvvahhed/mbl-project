@@ -231,13 +231,16 @@ testimonials.forEach((testimonial, index) => {
 		'flex justify-center gap-4 md:gap-6 lg:gap-10 items-center flex-wrap min-w-full w-full snap-end '
 	item.id = `testimonial-item-${index + 1}`
 	testimonial.forEach((testimonialItem) => {
-		item.innerHTML += `<div class="size-64 lg:size-80 bg-gradient-to-tr from-white/10 to-white/20 rounded-2xl relative flex flex-col p-6 lg:px-10 lg:py-12 justify-center backdrop-blur-lg">
-					<div class="absolute top-0 left-0 border-t border-l border-purple-400 size-20 rounded-tl-2xl border-opacity-80"></div>
-					<div class="absolute bottom-0 right-0 border-b border-r size-20 border-purple-400 rounded-br-2xl border-opacity-80"></div>
+		item.innerHTML += `<div class="size-64 lg:size-80  rounded-2xl relative flex flex-col p-6 lg:px-10 lg:py-12 justify-center ">
+						<img
+							src="./assets/card-bg.png"
+							alt="card-bg"
+							class="absolute w-[100%] h-[100%] top-0 left-0"
+						/>
 					<div class="flex gap-1">
 						${'<div class="mask mask-star-2 bg-yellow-500 size-4"></div>'.repeat(5)}
 					</div>
-					<blockquote class="text-sm lg:text-base font-semibold mt-4">${
+					<blockquote class="text-sm lg:text-base font-semibold mt-4 z-10">${
 						testimonialItem.quote
 					}</blockquote>
 					<div class="flex items-center gap-2 mt-auto">
@@ -246,7 +249,7 @@ testimonials.forEach((testimonial, index) => {
 								<img src="${testimonialItem.image}" alt="avatar of ${testimonialItem.name}" />
 							</div>
 						</div>
-						<div>
+						<div class="z-10">
 							<h5 class="lg:text-lg">${testimonialItem.name}</h5>
 							<p class="!text-xs h6 lg:!text-sm text-neutral-300">${testimonialItem.title}</p>
 						</div>
