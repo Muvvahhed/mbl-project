@@ -2712,6 +2712,10 @@ details.collapse summary::-webkit-details-marker {
   top: 5%;
 }
 
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -4469,6 +4473,10 @@ textarea {
 
   .md\:right-\[5\%\] {
     right: 5%;
+  }
+
+  .md\:-bottom-4 {
+    bottom: -1rem;
   }
 
   .md\:mx-10 {
